@@ -1,18 +1,72 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
-  color: #212121;
-  line-height: 1.5;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #fafafa;
+	color: #212121;
+	line-height: 1.5;
 }
 
 img {
-  display: block;
-  max-width: 100%;
+	display: block;
+	max-width: 100%;
+}
+
+button {
+	padding: 5px;
+	border-radius: 4px;
+
+	min-width: 100px;
+
+	background-color: #ececec;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/* === styles for task #2 === */
+.start {
+	display: flex;
+
+	justify-content: center;
+	margin-bottom: 20px;
+	width: 376px;
+}
+
+.start input {
+	padding: 5 0px;
+	border-radius: 4px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.timer {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.field {
+	background-color: #ececec;
+	border: 2px solid #afb1b8;
+	border-radius: 8px;
+}
+
+.value,
+.label {
+	display: flex;
+	justify-content: center;
+	width: 90px;
+}
+
+.value {
+	font-size: 40px;
+}
+
+.label {
+	text-transform: uppercase;
 }
