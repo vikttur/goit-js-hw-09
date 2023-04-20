@@ -17,10 +17,34 @@ img {
 	max-width: 100%;
 }
 
-button {
-	padding: 5px;
+input {
+	padding: 5 0px;
 	border-radius: 4px;
+	font-size: 20px;
+	text-align: center;
+}
 
+label {
+	display: flex;
+	flex-direction: column;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	padding: 15 0px;
+	width: 1000px;
+
+	background-color: #ececec;
+	border: 2px solid #afb1b8;
+	border-radius: 8px;
+}
+
+button {
+	padding: 5 15px;
+	border-radius: 4px;
 	min-width: 100px;
 
 	background-color: #ececec;
@@ -28,7 +52,6 @@ button {
 	cursor: pointer;
 }
 
-/* === styles for task #2 === */
 .start {
 	display: flex;
 
@@ -38,10 +61,7 @@ button {
 }
 
 .start input {
-	padding: 5 0px;
-	border-radius: 4px;
-	font-size: 20px;
-	text-align: center;
+	margin-right: 10px;
 }
 
 .timer {
