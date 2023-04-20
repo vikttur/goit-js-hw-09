@@ -32,6 +32,7 @@ function onClickBtn(event) {
 
 function dataVerification(obj) {
 	let fieldName = '';
+	if (obj.amount.value === '0') fieldName = 'Amount';
 
 	switch ('') {
 	case obj.delay.value:
